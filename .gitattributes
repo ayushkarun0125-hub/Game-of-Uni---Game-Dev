@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Prebuilt Windows players are build output, not source: keep them out of
+# GitHub's language stats so the repo is reported as C# rather than ASP.NET.
+Releases/** linguist-vendored
